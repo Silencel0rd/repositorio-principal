@@ -1,0 +1,10 @@
+git branch #para ver que ramas tengo en local
+git branch -r #para ver que ramas tengoen remoto
+
+git switch master #para cambiar a la rama principal (que he llamado master)
+
+git branch -d #para hacer el intento de borrar rama en local, si la rama no esta merged dara error
+git branch -D #eliminacion total de la rama en local
+
+git push -u origin version1 #para actualizar la rama version1 de remoto
+git push --delete version1 #para borrar la rama version1 de remoto
